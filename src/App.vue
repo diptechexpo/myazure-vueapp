@@ -1,15 +1,19 @@
 <template>
   <div id="app">
+    <Message/>
     <Users/>
   </div>
 </template>
 
 <script>
 import Users from './components/Users.vue'
+import Message from './components/Message.vue'
+
 export default {
   name: 'app',
   components: {
-    Users
+    Users,
+    Message
   }
 }
 </script>
